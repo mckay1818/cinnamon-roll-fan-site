@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.653), rgba(255, 255, 255, 0.657)),
+    url("/assets/cinnamon-rolls.jpeg");
+    background-size: 150px;
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(94, 17, 17);
+}
+
+.dark-mode {
+    background-image: linear-gradient(rgba(66, 63, 63, 0.657), rgba(66, 63, 63, 0.657)),
+    url("/assets/cinnamon-rolls.jpeg");
+    background-size: 150px;
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    font-weight: 600;
+    background-color: rgb(250, 238, 238);
+    border-color: rgb(94, 17, 17);
+    border-radius: 80%;
+    padding: 20px;
+    margin: 10px;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: rgb(255, 253, 253);
+}
+
+span img {
+    max-width: 40px;
+    margin-right: 5px;
+}
